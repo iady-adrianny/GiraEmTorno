@@ -5,12 +5,6 @@ ScriptsOnlyBuild:
     - GiraEmTorno2
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -35,8 +29,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 81
@@ -46,9 +38,9 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 14052}
+      Script: {instanceID: 12130}
     - Class: 114
-      Script: {instanceID: 18446}
+      Script: {instanceID: 13182}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -186,6 +178,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 51516c3912cdab7a015e82505ceb5195
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GiraEmTorno2
   - hash:
       serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
@@ -350,6 +348,12 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
+      Hash: 6c800f8880e632c99cea056fa2cc37b1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GiraEmTorno
+  - hash:
+      serializedVersion: 2
       Hash: 760787567e1b60d64a3e421ab83ee14a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -480,18 +484,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 6c800f8880e632c99cea056fa2cc37b1
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GiraEmTorno
-  - hash:
-      serializedVersion: 2
-      Hash: 51516c3912cdab7a015e82505ceb5195
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GiraEmTorno2
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
